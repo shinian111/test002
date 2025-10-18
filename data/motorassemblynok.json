@@ -1,0 +1,68 @@
+
+[
+    {
+        "title": "step4 nok",
+        "children": [
+            {
+                "title": "报错代码=04",
+                "children": [
+                    {
+                        "title": "mean force超限",
+                        "children": [
+                            {
+                                "title": "mean force趋势偏上，报废时超上限",
+                                "measures": "1.润滑且活动contact unit弹簧包，同时查看趋势是否下降\n2.若无效，调小Jenny Axis压力后并将B930F Tray为6后，即可复位恢复生产，同时关注Step 4 Mean Force进行优化调整。\n3.若以上措施无效，mean frce仍有上升趋势，或仍存在报废，应观察压装报警时浮动靠向那个顶丝，将对应顶丝拧松1/4圈，并观察生产。\n注意顶丝松动过多会导致浮动变大，step4时马达不能啮合进HM造成报废。所以每次调整为1/4圈，多次调整才能到最佳装配状态，调整后要记录并观察生产。 ",
+                                "rootCause": "jenny轴x/y浮动过大/过小"
+                            },
+                            {
+                                "title": "mean force趋势正常，报废时超上限",
+                                "measures": "检查HM高度/jenny轴松浮动值/夹爪浮动量",
+                                "rootCause": "NA"
+                            },
+                            {
+                                "title": "mean force超下限",
+                                "measures": "调大Jenny Axis压力",
+                                "rootCause": "jenny轴压力过小"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "啮合时间超60s",
+                        "measures": "检查jenny轴浮动量，观察压装报警时浮动两侧不均匀，浮动靠向那个顶丝，将对应顶丝拧松1/4圈，并观察生产。 \n                                                                                               注意顶丝松动过多会导致浮动变大，step4时马达不能啮合进HM造成报废。\n                                                                                               所以每次调整为1/4圈，多次调整才能到最佳装配状态，调整后要记录并观察生产。",
+                        "rootCause": "jenny轴x/y浮动过大/过小 "
+                    }
+                ]
+            },
+            {
+                "title": "报错代码=03/05/08",
+                "children": [
+                    {
+                        "title": "Measuring buffer电流曲线异常<br>马达通电异常",
+                        "measures": "排查以下内容：<br>马达连接pin针：松脱、氧化、磨损<br>\n马达连接pin导向套：导向套方向错误<br>\n马达连接pin导线：松脱、脱焊、短接<br>\nECU连接pin：松脱、氧化、磨损 <br>\nDUMMY ECU失效 <br>\nECU连接pin导线：松脱、脱焊、短接<br>",
+                        "rootCause": "马达通电异常"
+                    },
+                    {
+                        "title": "Measuring buffer电流曲线正常<br>（高于1A且规律性ON/OFF)",
+                        "measures": "非电流问题，是啮合时间超60s机械问题",
+                        "rootCause": "HM行星轮被旋转至死挡触发ECU&马达启停自保护导致电流规律性ON/OFF，实则不是电流异常"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "step5 nok",
+        "children": [
+            {
+                "title": "mean force成上升趋势",
+                "measures": "1.调整jenny轴的支撑气压和润滑jenny轴，降低mean force到55N以下<br>2.若润滑mean force和降低气压无效，mean force仍有上升趋势，或仍存在step5报废，\n应观察压装到step5时浮动靠向哪个顶丝，将对应顶丝拧松1/4圈，并观察生产。\n注意顶丝松动过多会导致浮动变大，step4时马达不能啮合进HM造成报废。\n所以每次调整为1/4圈，多次调整才能到最佳装配状态，调整后要记录并观察生产。",
+                "rootCause": "压装力到90N，但轴的位置没有达到5.9~7.6"
+            },
+            {
+                "title": "meanforce力相比之前正常时没有明显偏大",
+                "measures": "1.测试是否是定位铃铛导致马达与HM同轴度不好2.在定位铃铛左后侧增加了0.15mm垫片以保证定位之后马达中心与HM中心在同一直线",
+                "rootCause": "测试是否是定位铃铛导致马达与HM同轴度不好"
+            }
+        ]
+    }
+]
