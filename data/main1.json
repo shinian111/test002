@@ -1,0 +1,47 @@
+[
+  {
+    "title": "C20",
+    "children": [
+      {
+        "title": "马达组装不良",
+        "note": "总流程图<br/><br/>",
+        "file": "motorassemblynok.json"
+      },
+      {
+        "title": "相机检测nok",
+        "measures": "联系质量技术原查看马达是否有异物",
+        "rootCause": "来料异常"
+      }
+    ]
+  },
+  {
+    "title": "C50",
+    "note": "返工不能连续点，要有动作",
+    "children": [
+      {
+        "title": "ECU组装不良",
+        "file": "ecuassemblynok.json"
+      }
+    ]
+  },
+  {
+    "title": "C42",
+    "file": "C42.json"
+  },
+  {
+    "title": "C41",
+    "file": "C41.json"
+  },
+  {
+    "title": "C40",
+    "file": "C40.json"
+  },
+  {
+    "title": "C30",
+    "file": "C30.json"
+  },
+  {
+    "title": "C60",
+    "file": "C60.json"
+  }
+]
