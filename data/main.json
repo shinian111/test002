@@ -1,101 +1,47 @@
-
 [
-    {
-        "title": "C20",
-        "children": [
-            {
-                "title": "马达组装不良",
-                "note": "总流程图<br><img src='image/other/001.png' width='180' height='180'><br>",
-                "file": "motorassemblynok.json"
-            },
-            {
-                "title": "相机检测nok",
-                "measures": "联系质量技术原查看马达是否有异物",
-                "rootCause": "来料异常"
-            }
-        ]
-    },
-    {
-        "title": "C50",
-        "note": "返工不能连续点，要有动作",
-        "children": [
-            {
-                "title": "ECU组装不良",
-                "file": "ecuassemblynok.json"
-            }
-        ]
-    },
-    {
-        "title": "C42",
-        "file": "C42.json"
-    },
-    {
-        "title": "C44/46",
-        "children": [
-            {
-                "title": "重点关注",
-                "file": "44/001.json"
-            },
-            {
-                "title": "工装 / 高压阀 / 电磁阀 / 定量阀",
-                "note": "气动过程如遇列表中未出现的失效，对于2B项，先更换对应的失效口工装，再直接盲板测试阀泄漏 ",
-                "file": "44/002.json"
-            },
-            {
-                "title": "高压比例阀",
-                "file": "44.json"
-            },
-            {
-                "title": "马达组装不良",
-                "file": "motorassemblynok.json"
-            },
-            {
-                "title": "马达组装不良",
-                "file": "motorassemblynok.json"
-            },
-            {
-                "title": "马达组装不良",
-                "file": "motorassemblynok.json"
-            },
-            {
-                "title": "马达组装不良",
-                "file": "motorassemblynok.json"
-            },
-            {
-                "title": "PSMC1_2C_IPB",
-                "measures": "1 联系质量技术原查看PSMC1是否有损伤 \n2 如有损伤立刻调监控排查C40装配有无异常，并将调查结果分享到群里 \n3 要求质量技术员汇报给质量工程师",
-                "rootCause": "来料异常"
-            }
-        ]
-    },
-    {
-        "title": "C82",
-        "children": [
-            {
-                "title": "PSMC1_2C_IPB",
-                "measures": "1 联系质量技术原查看PSMC1是否有损伤 \n2 如有损伤立刻调监控排查C40装配有无异常，并将调查结果分享到群里 \n3 要求质量技术员汇报给质量工程师",
-                "rootCause": "来料异常"
-            }
-        ]
-    },
-    {
-        "title": "相机",
-        "children": [
-            {
-                "title": "PSMC1_2C_IPB",
-                "measures": "1 联系质量技术原查看PSMC1是否有损伤 \n2 如有损伤立刻调监控排查C40装配有无异常，并将调查结果分享到群里 \n3 要求质量技术员汇报给质量工程师",
-                "rootCause": "来料异常"
-            }
-        ]
-    },
-    {
-        "title": "测试",
-        "children": [
-            {
-                "title": "PSMC1_2C_IPB",
-                "measures": "1 联系质量技术原查看PSMC1是否有损伤 \n2 如有损伤立刻调监控排查C40装配有无异常，并将调查结果分享到群里 \n3 要求质量技术员汇报给质量工程师",
-                "rootCause": "来料异常"
-            }
-        ]
-    }
+  {
+    "title": "C20",
+    "children": [
+      {
+        "title": "马达组装不良",
+        "note": "总流程图<br/><br/>",
+        "file": "motorassemblynok.json"
+      },
+      {
+        "title": "相机检测nok",
+        "measures": "联系质量技术原查看马达是否有异物",
+        "rootCause": "来料异常"
+      }
+    ]
+  },
+  {
+    "title": "C50",
+    "note": "返工不能连续点，要有动作",
+    "children": [
+      {
+        "title": "ECU组装不良",
+        "file": "ecuassemblynok.json"
+      }
+    ]
+  },
+  {
+    "title": "C42",
+    "file": "C42.json"
+  },
+  {
+    "title": "C41",
+    "file": "C41.json"
+  },
+  {
+    "title": "C40",
+    "file": "C40.json"
+  },
+  {
+    "title": "C30",
+    "file": "C30.json"
+  },
+  {
+    "title": "C60",
+    "file": "C60.json"
+  }
 ]
